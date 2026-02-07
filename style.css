@@ -1,27 +1,35 @@
 body {
-  background-color: #fff6dc;
-  font-family: Arial, sans-serif;
-  padding: 40px;
-  line-height: 1.6;
+ background:#fff6dc;
+ font-family: Arial;
+ padding:40px;
 }
 
-h1 {
-  color: #4a3f2f;
+nav {
+ text-align:center;
+ margin-bottom:20px;
 }
 
-h2, h3 {
-  color: #6b563d;
+nav a {
+ margin:15px;
+ text-decoration:none;
+ font-weight:bold;
+ color:#6b563d;
 }
 
-p {
-  font-size: 18px;
+.banner {
+ width:100%;
+ max-height:300px;
+ object-fit:cover;
 }
 
-a {
-  color: #8b5e34;
-  text-decoration: none;
+.center {
+ text-align:center;
 }
 
-a:hover {
-  text-decoration: underline;
+footer {
+ margin-top:60px;
+ border-top:1px solid #aaa;
+ padding-top:15px;
+ text-align:center;
+ font-size:14px;
 }
