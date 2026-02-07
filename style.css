@@ -1,8 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   background: #fff6dc;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 /* Banner */
@@ -12,49 +12,52 @@ body {
   display: block;
 }
 
-/* Center heading spacing */
-.center {
-  margin-top: 20px;
+.content{
+  max-width:1000px;
+  margin:auto;
+  padding:20px;
 }
 
-/* Content box for units */
-.units {
-  border: 3px solid orange;
-  margin: 30px auto;
-  padding: 20px;
-  width: 80%;
-  text-align: left;
-  background: #fff;
+.center{
+  margin-top:20px;
 }
 
-/* Subunit titles */
-.units h3 {
-  color: #333;
+.units{
+  border:3px solid orange;
+  margin:30px auto;
+  padding:20px;
+  width:100%;
+  text-align:left;
+  background:#fff;
 }
 
-/* Lists */
-.units ul {
-  margin-bottom: 20px;
+.units h3{
+  color:#333;
 }
 
-/* Links */
-.units a {
-  text-decoration: none;
-  color: #4b4bf0;
+.units h4{
+  margin-top:15px;
 }
 
-/* Sankhya image (inside box, responsive) */
-.subunit-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 15px auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+.units ul{
+  margin-bottom:15px;
 }
 
-/* Footer */
-footer {
-  padding: 20px;
-  font-size: 14px;
+.units a{
+  text-decoration:none;
+  color:#4b4bf0;
+}
+
+.subunit-img{
+  max-width:100%;
+  height:auto;
+  display:block;
+  margin:15px auto;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+footer{
+  padding:20px;
+  font-size:14px;
 }
