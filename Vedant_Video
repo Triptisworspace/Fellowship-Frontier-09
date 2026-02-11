@@ -2,38 +2,26 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Vedant Philosophy – Video</title>
+<title>Vedanta Philosophy – Video</title>
 
 <style>
 body {
-  font-family: Arial, sans-serif;
-  background: #fffaf3;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #fffaf3;
+    padding: 20px;
 }
 
 .video-box {
-  max-width: 800px;
-  margin: auto;
-  border: 2px solid #ff6a00;
-  padding: 15px;
-  border-radius: 8px;
-  background: white;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ff6a00;
+    padding: 15px;
+    border-radius: 8px;
+    background: white;
 }
 
 h2 {
-  text-align: center;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-}
-
-.video-container iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+    text-align: center;
 }
 </style>
 
@@ -42,17 +30,16 @@ h2 {
 <body>
 
 <div class="video-box">
+
 <h2>Vedanta Philosophy – Video Lecture</h2>
 
-<div class="video-container">
-<iframe
-src="https://youtu.be/yELwF3X_fFg"
-title="Vedanta__Quest_for_True_Self Video"
+<iframe width="100%" height="450"
+src="https://www.youtube.com/embed/yELwF3X_fFg"
+title="Vedanta Philosophy"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe>
-</div>
 
 </div>
 
